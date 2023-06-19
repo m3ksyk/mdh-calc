@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'mdh-calc',
+  base: '/mdh-calc/',
   plugins: [vue()],
   resolve: {
     alias: {
